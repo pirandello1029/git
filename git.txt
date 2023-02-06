@@ -1,0 +1,48 @@
+-- ================================================================================
+# 작업폴더에서 powershell
+-- ================================================================================
+
+git --version
+
+git config --global user.email "wjjang@fndatalab.com"
+git config --global user.name "wjjang"
+
+
+-- ================================================================================
+# visual studio code에서 terminal
+-- ================================================================================
+
+git add [filename]
+git add [filename1] [filename2]
+git add .
+git commit -m [message]
+
+git status
+
+git restore --staged 파일명
+
+git log --all --oneline
+git log --all --oneline --graph
+
+git difftool
+
+# branch
+git branch [branchname]
+git switch [branchname]
+
+# main ← coupon
+git switch main
+git merge coupon
+
+# 다양한 merge 방법 (3-way, fast-forward, squash, rebase)
+
+git restore 파일명
+git restore --source 커밋아이디 파일명
+git restore --staged 파일명
+
+git revert 커밋아이디
+
+git reset --[hard/soft/mixed] 커밋아이디
+
+
+
