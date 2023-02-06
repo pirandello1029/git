@@ -1,3 +1,21 @@
 https://github.com/
 weonjoo@naver.com / cgwnjg79!!
-weonjeungchang@gmail.com / cgwnjg79!!
+
+git branch -M main
+
+git push -u [원격저장소주소[] main
+git push -u https://github.com/pirandello1029/git.git main
+
+git remote add [변수명] [저장소주소]
+git remote add origin https://github.com/pirandello1029/git.git
+git remote -v
+
+git clone [원격저장소주소]
+git clone https://github.com/pirandello1029/git.git
+
+git push
+git push --set-upstream origin main
+
+git pull [원격저장소주소]
+git pull https://github.com/pirandello1029/git.git
+git pull == git fetch + git merge
